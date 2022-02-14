@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -9,18 +9,23 @@
 </head>
 
 <body>
+    <a id ="About Me"></a>
     <h1>Angel Maynor</h1>
     <br>
     <br>
-    <img src="Headshot crop.jpeg" ></img>
+    <img src="Headshot_crop.jpeg"  alt = "headshot image">
     
 <div id="tabs">
   <ul>
-    <li><a href=""><span>About Me</span></a></li>
-    <li><a href=""><span>Hobbies</span></a></li>
-    <li><a href=""><span>Experience</span></a></li>
+    <li><a href="#About Me"><span>About Me</span></a></li>
+    <li><a href="#Hobbies"><span>Hobbies</span></a></li>
+    <li><a href="#Experience"><span>Experience</span></a></li>
+    <li><a href="#Connect"><span>Let's Connect</span></a></li>
   </ul>
 </div>
+<br>
+<br>
+
 
 <h2>About Me</h2>
     <p>
@@ -28,6 +33,53 @@
         <br>
         From Craven, I transferred to Winston-Salem State Univeristy in Winston-Salem, NC, where I am currently still at.<br>I am Senior Information Technology major, and also enrolled in my schools early masters program!
     </p>
+    <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>
+    <a id ="Hobbies"></a>
+</p>
+<br>
+<br>
+<br>
+<br>
+
     <h2>Hobbies</h2>
     <p>
         My hobbies include traveling, exercise, and eating. I love traveling! I have traveled cross-country, from Florida to California by car twice.<br> My high school volleyball team in Japan travelled to Tokyo, Japan and Seoul, South Korea! I have also been to different islands in Japan.
@@ -37,7 +89,65 @@
         <br>
         <br>
         Food is my weakness. It is always nice to find a good restaurant in town that hits the spot.<br> I like all types of cuisine, but my favorite are Japanese, Indian, and sould food.<br>As far as sweets go, I have been obssessed with Crumbl Cookies!
+<br>var slideIndex = 0;
+showSlides();
 
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>
+    <a id ="Experience"></a>
+</p>
+<br>
+<br>
+<br>
+<br>
     </p>
     <h2>Experience</h2>
     <p>
@@ -52,22 +162,74 @@
         EY Black in Technology Ambassador Pilot Program Participant - September 2021
         <br>
         All In Program Participant - August 2021
-        </p>
         <br>
-<footer>
-    <p><strong>Connect With Me</p></strong>
-    <p>
-        <a href="mailto:asimonem@gmail.com">
-            <img src="email.jpeg" height = 5 >
+        <br>
+        <br>
+        <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>
+    <a id ="Connect"></a>
+</p>
+<br>
+<br>
+<br>
+<br>
+        <footer>
+            <p><strong>Connect With Me</strong></p>
+        
+        </footer>
+        <a href="mailto:asimonem@gmail.com"> 
+            <img src="email.jpeg" width = 40 height = 30 alt = "email icon">
         </a>
         <a href="https://github.com/aiangelm">
-            <img src = "ghi.jpeg">
+            <img src = "ghi.jpeg" alt = "github icon" width = 40 height = 30>
         </a>
-        <a href="www.linkedin.com/in/angel-maynor">
-            <img src = "linkedin.jpeg">
+        <a href="https://www.linkedin.com/in/angel-maynor">
+            <img src = "linkedin.jpeg" width = 40 height = 30 alt = "linkedin icon">
         </a>
-    </p>
-</footer>
-    
+    </p>   
+        <br>
+        <div class="w3-panel w3-leftbar">
+            <p><i class="fa fa-quote-right w3-xxlarge"></i><br>
+            <i class="w3-serif w3-xlarge">"It's all happening." -Penny Lane</i></p>
+          </div> 
+        
 </body>
 </html>
