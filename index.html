@@ -5,34 +5,76 @@
     <meta charset="utf-8">
     <title>Angel Maynor</title>
     <link rel="stylesheet" href="styles.css">
-    
-</head>
+    <style>
+        .polaroid img {
+    width: 50%;
+    border-radius: 25px 25px 0 0;
+    height: 345px;
+            }
 
+            .polaroid {
+    height: auto;
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 2px 4px 8px 3px Gainsboro;
+    float: left;
+    margin: 2%;
+}
+
+.caption {
+    padding: 0 20px 20px 20px;
+}
+        </style>
+</head>
 <body>
-    <a id ="About Me"></a>
+    <div id="tabs">
+        <ul>
+          <li><a href="#About Me"><span>About Me</span></a></li>
+          <li><a href="#Hobbies"><span>Hobbies</span></a></li>
+          <li><a href="#Experience"><span>Experience</span></a></li>
+          <li><a href="#Connect"><span>Let's Connect</span></a></li>
+        </ul>
+      </div> 
+      <br>
+      <br>
+      <br>
+    <br>
+    <br>
+    <br>
     <h1>Angel Maynor</h1>
     <br>
-    <br>
     <img src="Headshot_crop.jpeg"  alt = "headshot image">
-    
-<div id="tabs">
-  <ul>
-    <li><a href="#About Me"><span>About Me</span></a></li>
-    <li><a href="#Hobbies"><span>Hobbies</span></a></li>
-    <li><a href="#Experience"><span>Experience</span></a></li>
-    <li><a href="#Connect"><span>Let's Connect</span></a></li>
-  </ul>
-</div>
+    <p>
+        <a id ="About Me"></a>
+    </p>
 <br>
 <br>
 
 
 <h2>About Me</h2>
     <p>
-        Hi! My name is Angel Maynor. I am a Marine Corps brat, meaning that my father served in the Marine Corps.<br>My most favorite place that I lived was Okinawa, Japan. <br>I attended to Craven Community College in New Bern, NC where I obtained an Associate in Arts degree. 
+        Hi! My name is Angel Maynor. I am a Marine Corps brat, meaning that my father served in the Marine Corps.<br>Due to my father's military service, I have lived in several states on the east coast, California on the west coast,<br> and overseas in Japan. My most favorite place that I lived was Okinawa, Japan. <br>I attended to Craven Community College in New Bern, NC where I obtained an Associate in Arts degree. 
         <br>
         From Craven, I transferred to Winston-Salem State Univeristy in Winston-Salem, NC, where I am currently still at.<br>I am Senior Information Technology major, and also enrolled in my schools early masters program!
     </p>
+   
+      </style>
+      </head>
+      
+      <div class="polaroid">
+        <img src="marineCorpsCake.JPG" alt="5 Terre">
+        <h3 class ="Cinque Terre"></h3>
+        </div>
+      </div>
+      
+      <div class="polaroid">
+        <img src="wssuHandSign.jpg" alt="Norther Lights">
+        <h3 class = "Northern Lights"></h3>
+        </div>
+      </div>
+      
+      
     <br>
 <br>
 <br>
@@ -89,20 +131,8 @@
         <br>
         <br>
         Food is my weakness. It is always nice to find a good restaurant in town that hits the spot.<br> I like all types of cuisine, but my favorite are Japanese, Indian, and sould food.<br>As far as sweets go, I have been obssessed with Crumbl Cookies!
-<br>var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none"; 
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1} 
-  slides[slideIndex-1].style.display = "block"; 
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
+    </p>
+<br>
 <br>
 <br>
 <br>
@@ -224,12 +254,13 @@ function showSlides() {
         <a href="https://www.linkedin.com/in/angel-maynor">
             <img src = "linkedin.jpeg" width = 40 height = 30 alt = "linkedin icon">
         </a>
-    </p>   
+
         <br>
         <div class="w3-panel w3-leftbar">
             <p><i class="fa fa-quote-right w3-xxlarge"></i><br>
             <i class="w3-serif w3-xlarge">"It's all happening." -Penny Lane</i></p>
           </div> 
+        <img src = "pennyLane.png" alt = "github icon">
         
 </body>
 </html>
